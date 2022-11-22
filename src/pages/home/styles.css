@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.circles{
+    height: 100%;
+    width: 95%;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

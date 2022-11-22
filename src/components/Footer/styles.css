@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 19vh;
+    padding-right: 50px;
+}
+.footer .linkedin{
+    height:57px;
+}
+.footer .linkedin:hover{
+    height: 67px;
+}
+.footer img{
+    height: 90px;
+    transition: 170ms;
+}
+.footer img:hover{
+    height: 110px;
+    cursor: pointer;
+}
