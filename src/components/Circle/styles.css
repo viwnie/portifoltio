@@ -2,4 +2,22 @@
     border-radius: 50%;
     display: inline-block;
     box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.2);
+
+    animation-name: bounce;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.6, 0.08, 0.8, 0.6);
+    animation-iteration-count: 5;
 }
+.circle:hover{
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    from {
+      transform: translate3d(0, -160px, 0);
+    }
+  
+    to {
+      transform: translate3d(0, 0px, 0);
+    }
+  }

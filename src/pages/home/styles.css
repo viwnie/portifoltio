@@ -5,10 +5,20 @@
     height: 70vh;
 }
 .circles{
-    height: 100%;
     width: 95%;
-    margin: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    animation-name: home;
+    animation-duration: 1s;
+}
+
+@keyframes home{
+    from {
+        transform: translateY(-100vh);
+    }
+    to {
+        transform: translateY(0);
+    }
 }
