@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles.css'
+import { Link } from 'react-router-dom'
 import Logo from '../../assets/Logo.png'
 
 export const NavBar =() => {
@@ -7,10 +8,11 @@ export const NavBar =() => {
     <div className="navBar">
       <img className='logo' src={Logo} alt="Logo"/>
       <nav className="options">
-          <h1>About</h1>
-          <h1>My Skills</h1>
-          <h1>Works</h1>
-          <h1>Contact</h1>
+          <Link to='/' className='link'>Home</Link>
+          <Link to='/about' className='link'>About</Link>
+          <Link to='/skills' className='link'>My Skills</Link>
+          <Link to='/works' className='link'>Works</Link>
+          <Link to='/contact' className='link'>Contact</Link>
       </nav>
     </div>
   );

@@ -5,6 +5,7 @@ import { Circle } from '../../components/Circle';
 import { Footer } from '../../components/Footer';
 
 export const Home = () => {
+
   return (
     <>
     <div className="home">

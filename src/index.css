@@ -12,6 +12,8 @@ body {
   width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(10deg, white, rgb(255, 255, 255))
+
 }
 
 :root {
