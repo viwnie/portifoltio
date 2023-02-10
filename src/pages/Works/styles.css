@@ -1,0 +1,26 @@
+.works{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 180px;
+}
+
+.works1{
+    background-color: rgb(199, 200, 201);
+    box-shadow: 15px 10px 9px -4px rgba(0, 0, 0, 0.479);
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+}
+.seta1, .seta2{
+    width: 50px;
+}
+.seta1:hover, .seta2:hover{
+    cursor: pointer;
+}
+.seta1{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}

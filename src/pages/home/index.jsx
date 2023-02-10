@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css';
-import {NavBar} from '../../components/NavBar'
+import { NavBar } from '../../components/NavBar'
 import { Circle } from '../../components/Circle';
 import { Footer } from '../../components/Footer';
 
