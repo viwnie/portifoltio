@@ -1,0 +1,72 @@
+[
+    {
+      "circleColor": "radial-gradient(circle at 10% 90%, #FB2576, white)",
+      "circleAnimation": "cubic-bezier(0.6, 0.08, 0.8, 0.6) 0.57s 5  alternate  bounce",
+      "circleHeight": "100px",
+      "circleWidth": "100px",
+      "circleMargin": "300px"
+    },
+    {
+      "circleColor": "radial-gradient(circle at 10% 90%, #150050, white)",
+      "circleAnimation": "cubic-bezier(0.6, 0.08, 0.8, 0.6) 0.67s 5  alternate  bounce",
+      "circleHeight": "75px",
+      "circleWidth": "75px",
+      "circleMargin": "100px"
+    },
+    {
+      "circleColor": "radial-gradient(circle at 10% 90%, #3F0071, white)",
+      "circleAnimation": "cubic-bezier(0.6, 0.08, 0.8, 0.6) 0.77s 5  alternate  bounce",
+      "circleHeight": "60px",
+      "circleWidth": "60px",
+      "circleMargin": "200px"
+    },
+    {
+      "circleColor": "radial-gradient(circle at 10% 90%, black, white)",
+      "circleAnimation": "cubic-bezier(0.6, 0.08, 0.8, 0.6) 0.87s 5  alternate  bounce",
+      "circleHeight": "40px",
+      "circleWidth": "40px",
+      "circleMargin": "90px"
+    },
+    {
+      "circleColor": "radial-gradient(circle at 10% 90%, #FB2576, white)",
+      "circleAnimation": "cubic-bezier(0.6, 0.08, 0.8, 0.6) 0.97s 5  alternate  bounce",
+      "circleHeight": "30px",
+      "circleWidth": "30px",
+      "circleMargin": "110px"
+    },
+    {
+      "circleColor": "radial-gradient(circle at 10% 90%, #FB2576, white)",
+      "circleAnimation": "cubic-bezier(0.6, 0.08, 0.8, 0.6) 1s 5  alternate  bounce",
+      "circleHeight": "30px",
+      "circleWidth": "30px",
+      "circleMargin": "180px"
+    },
+    {
+      "circleColor": "radial-gradient(circle at 10% 90%, black, white)",
+      "circleAnimation": "cubic-bezier(0.6, 0.08, 0.8, 0.6) 0.9s 5  alternate  bounce",
+      "circleHeight": "40px",
+      "circleWidth": "40px",
+      "circleMargin": "110px"
+    },
+    {
+      "circleColor": "radial-gradient(circle at 10% 90%, #3F0071, white)",
+      "circleAnimation": "cubic-bezier(0.6, 0.08, 0.8, 0.6) 0.89s 5  alternate  bounce",
+      "circleHeight": "60px",
+      "circleWidth": "60px",
+      "circleMargin": "250px"
+    },
+    {
+      "circleColor": "radial-gradient(circle at 10% 90%, #150050, white)",
+      "circleAnimation": "cubic-bezier(0.6, 0.08, 0.8, 0.6) 0.79s 5  alternate  bounce",
+      "circleHeight": "75px",
+      "circleWidth": "75px",
+      "circleMargin": "100px"
+    },
+    {
+      "circleColor": "radial-gradient(circle at 10% 90%, #FB2576, white)",
+      "circleAnimation": "cubic-bezier(0.6, 0.08, 0.8, 0.6) 0.69s 5  alternate  bounce",
+      "circleHeight": "100px",
+      "circleWidth": "100px",
+      "circleMargin": "300px"
+    }
+]

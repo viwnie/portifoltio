@@ -1,9 +1,20 @@
-
-
 .container-circles{
     color: white;
-    height: 50vh;
+    margin-top: 200px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.center{
+    position: relative;;
+}
+.x{
+    position: absolute;
+    width: 10%;
+    top: 35px; 
+    right: 80px;
+}
+.x:hover{
+    opacity: 50%;
+    cursor: pointer;
 }
