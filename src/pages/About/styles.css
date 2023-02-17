@@ -47,13 +47,13 @@
     transform-origin: center bottom;
 }
 .waveTop {
-    background-size: 50% 100px;
+    background-size: 50% 200px;
 }
 .waveMiddle {
-    background-size: 50% 120px;
+    background-size: 50% 220px;
 }
 .waveBottom {
-    background-size: 100% 100px;
+    background-size: 100% 200px;
 }
 .wavesAnimation .waveTop {
     animation: move_wave 20s linear infinite;

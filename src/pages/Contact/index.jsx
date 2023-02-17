@@ -4,6 +4,7 @@ import { NavBar } from '../../components/NavBar'
 import LogoGitHub from '../../assets/LogoGitHub.png'
 import LogoLinkedin from '../../assets/linkedin.png'
 import LogoDiscord from '../../assets/discord.png'
+import gmail from '../../assets/gmail.png'
 
 
 export const Contact = () => {
@@ -23,6 +24,9 @@ export const Contact = () => {
               <a href="https://discordapp.com/users/351516905116532736" target="_blank" rel="noreferrer">
               <img className='discord' src={LogoDiscord} 
               alt="LogoDiscord" />
+              </a>
+             <a href="mailto:viniciosalazar133@gmail.com" target="_blank" rel="noreferrer">
+              <img className='gmail' src={gmail} alt="LogoGmail" />
               </a>
           </div>
         </div>

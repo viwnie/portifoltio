@@ -8,40 +8,49 @@ import LogoGitHub from '../../assets/LogoGitHub.png'
 import LogoLinkedin from '../../assets/linkedin.png'
 import LogoDiscord from '../../assets/discord.png'
 
+const CARROSEL_DATA = [
+  { id: 0, image: `${LogoGitHub}`, alt: 'image0', title: 'hello',text: 'LogoGitHub' },
+  { id: 1, image: `${LogoLinkedin}`, alt: 'image1', title: 'hello',text: 'LogoLinkedin' },
+  { id: 2, image: `${LogoDiscord}`, alt: 'image2', title: 'hello',text: 'LogoDiscord' },
+  { id: 3, image: `${LogoDiscord}`, alt: 'image3', title: 'hello',text: 'LogoDiscord' },
+  { id: 4, image: `${LogoLinkedin}`, alt: 'image4', title: 'hello',text: 'LogoLinkedin' },
+  { id: 5, image: `${LogoGitHub}`, alt: 'image5', title: 'hello',text: 'LogoGitHub' },
+];
 
 
 
 export const Works = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  
+
   const handleLeftClick = () => {
-    setCurrentSlide(currentSlide < 3 ? 0 : currentSlide - 3);
+    setCurrentSlide((currentSlide - 3 + CARROSEL_DATA.length) % CARROSEL_DATA.length);
   };
-  
+
   const handleRightClick = () => {
-    setCurrentSlide(currentSlide + 3);
+    setCurrentSlide((currentSlide + 3) % CARROSEL_DATA.length);
   };
   
-  const images = [LogoDiscord, LogoLinkedin, LogoGitHub,  LogoGitHub, LogoDiscord, LogoLinkedin,LogoDiscord, LogoLinkedin, LogoGitHub, LogoGitHub, LogoDiscord, LogoLinkedin]
-
-  const displayedImages = images.slice(
-    currentSlide % images.length,
-    currentSlide % images.length + 3
+  const displayedSlides = CARROSEL_DATA.slice(
+    currentSlide,
+    currentSlide + 3
   );
-
-return (
-  <>
-    <NavBar />
-    <div className='works'>
-      <img className='seta1' src={Seta} alt="seta" onClick={handleLeftClick} />
-      {displayedImages.map((image, index) => (
-        <img className="works1" key={index} src={image} alt={`Slide ${index+1}`} />
-      ))}
-      <img className='seta2' src={Seta} alt="seta" onClick={handleRightClick} />
-    </div>
-    <Footer />
-  </>
-);
+  return (
+    <>
+      <NavBar />
+      <div className="works">
+        <img className="left" src={Seta} alt="arrow" onClick={handleLeftClick} />
+        {displayedSlides.map(slide => (
+          <div className='work' key={slide.id}>
+            <h1>{slide.title}</h1>
+            <img src={slide.image} alt={slide.alt} />
+            <p>{slide.text}</p>
+          </div>
+        ))}
+        <img className="right" src={Seta} alt="arrow" onClick={handleRightClick} />
+      </div>
+      <Footer />
+    </>
+  );
   }
   
   export default Works;
